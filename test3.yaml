@@ -1,7 +1,7 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: shree
+  name: ambayatiraidu
 spec:
   selector:
     matchLabels:
