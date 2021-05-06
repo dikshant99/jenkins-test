@@ -7,5 +7,6 @@ metdata:
 spec:
   containers:
    - name: my-test
-     image: busybox:1.28
+     image: nginx
      command: ["date"]
+
