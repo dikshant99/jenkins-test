@@ -1,7 +1,7 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: satya-missing
+  name: tirupati
 spec:
   selector:
     matchLabels:
