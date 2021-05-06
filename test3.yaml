@@ -1,7 +1,7 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: nik-new-bike-hayabussa
+  name: sachin-slathia
 spec:
   selector:
     matchLabels:
