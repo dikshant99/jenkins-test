@@ -1,7 +1,7 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: shree-new-bike
+  name: shree-new-bike-1
 spec:
   selector:
     matchLabels:
