@@ -1,19 +1,9 @@
-apiVersion: apps/v1
-kind: Deployment
+apiVersion: v1
+kind: Pod
 metadata:
-  name: duke250
+  name: pod-2
 spec:
-  selector:
-    matchLabels:
-      app: nginx
-  minReadySeconds: 5
-  template:
-    metadata:
-      labels:
-        app: nginx
-    spec:
-      containers:
-      - name: nginx
-        image: nginx:1.14.2
-        ports:
-        - containerPort: 80
+  containers:
+   - name: nginx-2
+     image: nginx
+  
