@@ -1,0 +1,11 @@
+apiVersion: v1
+kind: Pod
+metdata:
+ name: test-pod
+ labels:
+   test: baas
+spec:
+  containers:
+   - name: my-test
+     image: busybox:1.28
+     command: ["date"]
