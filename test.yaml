@@ -8,5 +8,4 @@ spec:
   containers:
    - name: my-test
      image: nginx
-     command: ["date"]
 
